@@ -1,7 +1,7 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 
-require_once __DIR__ . '/db.php';
+require_once '/OSPanel/domains/test1.com/db.php';
 
 $phone = $_POST['phone'];
 $adress = $_POST['adress'];
