@@ -13,7 +13,6 @@ if ($result->num_rows > 0) {
    }
 }
 
-
 $json_data = json_encode($data);
 
 header('Content-type: application/json');
